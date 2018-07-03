@@ -1,0 +1,52 @@
+$basic-color-input: #1776bf;
+$theme-colors: (
+  "primary": $basic-color-input
+);
+
+
+// Style for input border
+$gray-400: #808080;
+$input-focus-border-color: $basic-color-input;
+//$border-radius: 0rem;
+
+$enable-rounded:            false;
+
+$border-radius-lg: 0rem;
+$border-radius-sm: 0rem;
+//$input-btn-focus-width:.5rem;
+$btn-focus-width: 0.1rem;
+$label-margin-bottom: 4px;
+$input-btn-focus-box-shadow: 0 0 0 0 transparent;
+$btn-focus-box-shadow: 0 0 0 0 transparent;
+$input-focus-box-shadow: 0 0 0 0 transparent;
+$btn-box-shadow: 0 0 0 0 transparent;
+$btn-active-box-shadow: 0 0 0 0 transparent;
+//   $enable-gradients: true;
+$enable-shadows:false;
+
+$font-family-sans-serif: Roboto, Roboto-Medium;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Required
+// @import "node_modules/bootstrap/scss/functions";
+// @import "node_modules/bootstrap/scss/variables";
+// @import "node_modules/bootstrap/scss/mixins";
+
+// @import "node_modules/bootstrap/scss/grid";
+// @import "node_modules/bootstrap/scss/buttons";
+// @import "node_modules/bootstrap/scss/forms";
+// @import "node_modules/bootstrap/scss/nav";
+// @import "node_modules/bootstrap/scss/navbar";
+// @import "node_modules/bootstrap/scss/reboot";
+// @import "node_modules/bootstrap/scss/utilities";
+// @import "node_modules/bootstrap/scss/transitions";
+
+// .main-form {
+//   width: 450px;
+//   margin: auto;
+// }
+
+.form-control:hover {
+  border-color: $basic-color-input; 
+}
