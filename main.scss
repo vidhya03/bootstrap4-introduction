@@ -1,4 +1,5 @@
 $basic-color-input: #1776bf;
+$danger: #E0000E;
 $theme-colors: (
   "primary": $basic-color-input
 );
@@ -24,10 +25,10 @@ $btn-active-box-shadow: 0 0 0 0 transparent;
 //   $enable-gradients: true;
 $enable-shadows:false;
 
-$font-family-sans-serif: Roboto, Roboto-Medium;
+$font-family-sans-serif: Roboto, Roboto-Medium, Avenir-Black;
 
 @import "node_modules/bootstrap/scss/bootstrap";
-
+@import 'node_modules/font-awesome/scss/font-awesome';
 // Required
 // @import "node_modules/bootstrap/scss/functions";
 // @import "node_modules/bootstrap/scss/variables";
